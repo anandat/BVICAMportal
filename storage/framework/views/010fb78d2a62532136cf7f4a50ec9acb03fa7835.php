@@ -1,0 +1,27 @@
+<?php $__env->startSection('page-header'); ?>
+	<h4>Admin Dashboard</h4>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('main'); ?>
+
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-head-line">Admin Info</h1>
+                <h1 class="page-subhead-line"> Admin ID:<?php echo e(Auth::guard('admin')->user()->id); ?> </h1>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info">
+                    hello hello<br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('admin.layouts.master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
