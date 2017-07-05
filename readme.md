@@ -15,14 +15,14 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ## Description
 Its a college online attendence portal 
 Having 3 Moduels
-Teacher : 
+## Teacher : 
 1. Take attendence
 2. update
 3. update status for students (for providingany kind of information)
-Student :'
+## Student :'
 1 view attendence
 2 view status
-Admin:
+## Admin:
 (having all comtrols)
 1. add teacher
 2 . add student
