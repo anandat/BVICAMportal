@@ -1,3 +1,4 @@
+## Bootstrap
 # Laravel 5.2 
 [![GitHub release](https://img.shields.io/badge/release-1.0-brightgreen.svg)]()
 A basic example of how to user the built in Multi-Auth to allow logging in of both admin and end users.
