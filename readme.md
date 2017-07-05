@@ -1,4 +1,5 @@
-# Laravel 5.2 Multi-Auth
+# Laravel 5.2 
+
 
 [![GitHub release](https://img.shields.io/badge/release-1.0-brightgreen.svg)]()
 
@@ -6,11 +7,12 @@ A basic example of how to user the built in Multi-Auth to allow logging in of bo
 
 ## User Models
 
-Both the Admin and User models are under the ```App\Models``` namespace and the ```app\config\auth.php``` file has been updated to reflect this.
+Student
 
-## Views
+Teacher
 
-The Admin and User views have been seperated out, so they can be displayed independently and provide a noticeable difference between the look and feel to the site.
+Admin
+
 
 ## Additional packages
 
@@ -24,3 +26,22 @@ Please see [INSTALL](INSTALL.md) for more information on how to install.
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Description
+
+Its a college online attendence portal 
+Having 3 Moduels
+Teacher : 
+1. Take attendence
+2. update
+3. update status for students (for providingany kind of information)
+Student :'
+1 view attendence
+2 view status
+Admin:
+(having all comtrols)
+1. add teacher
+2 . add student
+3 having all power to change in db 
+
+
